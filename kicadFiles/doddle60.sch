@@ -6,10 +6,10 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Doddle60"
-Date "2019-11-04"
+Date "2019-11-11"
 Rev "pre-Alpha"
 Comp "Designed by Gondolindrim"
-Comment1 ""
+Comment1 "In partnership with Jae@TopClack"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -19,7 +19,7 @@ L Device:C_Small CSI1
 U 1 1 5C44CEDC
 P 10150 15125
 F 0 "CSI1" V 10250 15125 39  0000 C CNN
-F 1 "100n" V 10050 15125 31  0000 C CNN
+F 1 "1µ" V 10050 15125 31  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 15125 50  0001 C CNN
 F 3 "~" H 10150 15125 50  0001 C CNN
 	1    10150 15125
@@ -30,7 +30,7 @@ L Device:C_Small CSO1
 U 1 1 5C44DAFA
 P 10850 15125
 F 0 "CSO1" H 10975 15200 39  0000 C CNN
-F 1 "1u" H 10950 15275 39  0000 C CNN
+F 1 "1µ" H 10950 15275 39  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10850 15125 50  0001 C CNN
 F 3 "~" H 10850 15125 50  0001 C CNN
 	1    10850 15125
@@ -3938,10 +3938,10 @@ Text GLabel 13500 9575 0    50   Input ~ 0
 Wire Wire Line
 	13500 9575 13575 9575
 $Comp
-L Device:L_Core_Ferrite L4
+L Device:L_Core_Ferrite L3
 U 1 1 5F75AC01
 P 13850 9575
-F 0 "L4" V 14045 9575 50  0000 C CNN
+F 0 "L3" V 14045 9575 50  0000 C CNN
 F 1 "CMI322513U1R0KT" V 13968 9575 30  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 13850 9575 50  0001 C CNN
 F 3 "~" H 13850 9575 50  0001 C CNN

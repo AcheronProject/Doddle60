@@ -1,4 +1,4 @@
-update=Mon 04 Nov 2019 08:51:45 PM -03
+update=Mon 11 Nov 2019 06:14:02 PM -03
 version=1
 last_client=kicad
 [general]
@@ -236,7 +236,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1524
+Clearance=0.127
 TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -256,3 +256,13 @@ uViaDrill=0.1
 dPairWidth=0.254
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../preAlpha
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
